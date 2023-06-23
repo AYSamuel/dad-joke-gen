@@ -5,4 +5,4 @@ Upon clicking generate, a random jok is displayed.
 
 Used async/await, and DOM manipulation with light TailwindCSS styling.
 
-Lint to the generator 👉🏾 <a href="" target="_blank">HERE</a>
+Lint to the generator 👉🏾 <a href="https://aysamuel.github.io/dad-joke-gen/" target="_blank">HERE</a>

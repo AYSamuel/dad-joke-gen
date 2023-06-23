@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Random Joke</title>
+  </head>
+  <body>
+    <main class="w-1/2 flex flex-col gap-16 items-center text-center mx-auto border border-red-800 p-12 mt-12">
+      <section class="flex-col flex gap-12">
+        <h1 class="underline underline-offset-6 font-semibold">Generate a random Dad-joke</h1>
+
+        <p class="w-3/4 mx-auto">
+          <strong>What is a Dad-Joke?</strong>
+          A dad joke is a joke, typically a pun, often presented as a one-liner or a question and answer, but less often
+          a narrative. Generally inoffensive, dad jokes are stereotypically told with sincere humorous intent, or to
+          intentionally provoke a negative reaction to their overly-simplistic humor.
+        </p>
+      </section>
+      <section class="">
+        <p>Click on the button below to generate one.</p>
+        <button
+          id="generate"
+          class="rounded-full bg-teal-200 px-2 hover:opacity-75 my-4">
+          Generate
+        </button>
+        <div
+          id="jokes"
+          class="w-3/4 mx-auto border-2 rounded bg-teal-100 p-4 text-center"></div>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

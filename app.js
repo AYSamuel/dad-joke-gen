@@ -6,11 +6,8 @@ jokeBox.hidden = true;
 
 const loadJokes = async () => {
   try {
-    const response = await fetch('https://icanhazdadjoke.com/', {
-      headers: {
-        Accept: 'application/json',
-      },
-    });
+    const config = { headers: { Accept: 'application/json' } };
+    const response = await fetch('https://icanhazdadjoke.com/', config);
 
     const data = await response.json();
     const joke = data.joke;
